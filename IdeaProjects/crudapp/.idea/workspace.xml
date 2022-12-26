@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e7abab1-f59c-464d-aa4e-e542fd2e127a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/developers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/AppView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/AppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/AppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/DeveloperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/DeveloperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SkillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SkillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SpecialtyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SpecialtyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Specialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Specialty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/DeveloperRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/DeveloperRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/SpecialtyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/SpecialtyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/gson/GsonDeveloperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/gson/GsonDeveloperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/gson/GsonSkillRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/gson/GsonSkillRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/gson/GsonSpecialtyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/repository/gson/GsonSpecialtyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/DeveloperView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/DeveloperView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/SkillView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/SkillView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/SpecialtyView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/SpecialtyView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/developers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/developers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/skills.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/specialties.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/specialties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/AppRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/AppRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/model/Skill.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/model/Skill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/repository/gson/GsonSkillRepositoryImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/repository/gson/GsonSkillRepositoryImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/repository/gson/GsonSkillRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elaniaauto/crudapp/repository/gson/GsonSkillRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/skills.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -40,16 +65,17 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/crudapp&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/crudapp",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">

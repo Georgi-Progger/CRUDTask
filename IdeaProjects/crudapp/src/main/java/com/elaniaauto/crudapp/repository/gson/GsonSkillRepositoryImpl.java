@@ -1,6 +1,7 @@
 package com.elaniaauto.crudapp.repository.gson;
 
 import com.elaniaauto.crudapp.model.Skill;
+import com.elaniaauto.crudapp.model.Status;
 import com.elaniaauto.crudapp.repository.SkillRepository;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -10,6 +11,7 @@ import java.lang.reflect.Type;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class GsonSkillRepositoryImpl implements SkillRepository {
 
@@ -18,7 +20,6 @@ public class GsonSkillRepositoryImpl implements SkillRepository {
 
     private List<Skill> readSkillsFromFile() {
         String fileContent;
-
         try {
             fileContent = new String(Files.readAllBytes(Paths.get(SKILL_FILE_PATH)));
             Type type = new TypeToken<ArrayList<Skill>>(){}.getType();
@@ -70,11 +71,24 @@ public class GsonSkillRepositoryImpl implements SkillRepository {
 
     @Override
     public Skill update(Skill skill) {
-        return null;
+        List<Skill> currentSkill = readSkillsFromFile();
+        currentSkill = currentSkill.stream()
+                .map(s -> Objects.equals(s.getId(),skill.getId()) ? skill : s)
+                .collect(Collectors.toList());
+        writeSkillsToFile(currentSkill);
+        return skill;
     }
 
     @Override
-    public void deleteById(Integer integer) {
-
+    public void deleteById(Integer id) {
+        List<Skill> currentSkills = readSkillsFromFile();
+        currentSkills = currentSkills.stream()
+                .peek(s -> {
+                    if (Objects.equals(s.getId(), id)) {
+                        s.setStatus(Status.DELETED);
+                    }
+                })
+                .collect(Collectors.toList());
+        this.writeSkillsToFile(currentSkills);
     }
 }

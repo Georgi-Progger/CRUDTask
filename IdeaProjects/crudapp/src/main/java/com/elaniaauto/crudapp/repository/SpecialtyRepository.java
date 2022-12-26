@@ -1,2 +1,7 @@
-package com.elaniaauto.crudapp.repository;public interface SpecialtyRepository {
+package com.elaniaauto.crudapp.repository;
+
+import com.elaniaauto.crudapp.model.Skill;
+import com.elaniaauto.crudapp.model.Specialty;
+
+public interface SpecialtyRepository extends GenericRepository<Specialty, Integer> {
 }
