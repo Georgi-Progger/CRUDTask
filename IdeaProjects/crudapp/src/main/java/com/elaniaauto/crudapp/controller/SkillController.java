@@ -13,7 +13,9 @@ public class SkillController {
         skillRepository.save(skill);
         return skill;
     }
-
+    public Skill read(Integer id){
+        return skillRepository.getById(id);
+    }
 
     public List<Skill> readAll(){
         return skillRepository.getAll();

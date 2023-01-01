@@ -1,1 +1,1 @@
-[{"id":1,"firstName":"Geor","lastName":"Hugaev","status":"ACTIVE"}]
+[{"id":1,"firstName":"Huga","lastName":"Boss","skills":[{"id":2,"name":"JAVA","status":"DELETED"}],"specialty":{"id":1,"specName":"GOLANG","status":"ACTIVE"},"status":"ACTIVE"},{"id":2,"firstName":"Hugaev","skills":[{"id":4,"name":"DEVOPS","status":"DELETED"}],"specialty":{"id":4,"specName":"ASSEMBLER","status":"DELETED"},"status":"DELETED"}]

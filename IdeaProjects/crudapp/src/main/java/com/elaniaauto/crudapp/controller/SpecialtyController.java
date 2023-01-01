@@ -14,7 +14,9 @@ public class SpecialtyController {
         return specialty;
     }
 
-
+    public Specialty read(Integer id){
+        return specialtyRepository.getById(id);
+    }
     public List<Specialty> readAll(){
         return specialtyRepository.getAll();
     }

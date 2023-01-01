@@ -19,22 +19,5 @@ public class AppRunner {
 
         AppView appView = new AppView();
         appView.mainWorkProgram();
-
-
-
-
-
-
-
-//
-//        DeveloperRepository developerRepository = new GsonDeveloperImpl();
-//
-//        Developer developerToSave = new Developer();
-//        developerToSave.setLastName("Mihail");
-//        developerToSave.setFirstName("Huga");
-//        developerToSave.setSkills(skillRepository.getAll());
-//        developerToSave.setStatus(Status.ACTIVE);
-//
-//        Developer createdDevelopers = developerRepository.save(developerToSave);
     }
 }

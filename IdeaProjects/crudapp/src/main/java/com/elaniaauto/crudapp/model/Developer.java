@@ -1,7 +1,5 @@
 package com.elaniaauto.crudapp.model;
 
-import jdk.swing.interop.DispatcherWrapper;
-
 import java.util.List;
 
 public class Developer{
@@ -29,14 +27,17 @@ public class Developer{
     }
 
 
-    public Developer() {
-    }
-    public Developer(int id, String firstName, String lastName, List<Skill> skills) {
+    public Developer(){
+
+    };
+
+    public Developer(int id, String firstName, String lastName, List<Skill> skills, Specialty specialty) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.skills = skills;
         this.status = Status.ACTIVE;
+        this.specialty = specialty;
     }
 
     public void setId(Integer id) {
@@ -78,6 +79,7 @@ public class Developer{
                 ", firstName='" + firstName +
                 ", lastName" + lastName +
                 ", Skills" + skills  +
+                ", Specialty" + specialty +
                 ", status'" +status+ '\'' +
                 '}';
     }
