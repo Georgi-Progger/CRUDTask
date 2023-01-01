@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e7abab1-f59c-464d-aa4e-e542fd2e127a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/AppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/AppRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SkillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SkillController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SpecialtyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/controller/SpecialtyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/model/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/AppView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/AppView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/DeveloperView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elaniaauto/crudapp/view/DeveloperView.java" afterDir="false" />
-    </list>
+    <list default="true" id="8e7abab1-f59c-464d-aa4e-e542fd2e127a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
